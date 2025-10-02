@@ -11,7 +11,7 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-center hidden lg:flex ">
-            <nav className='flex gap-5'> 
+            <nav className='flex gap-5 text-lg font-semibold'> 
                 <NavLink to='/' className={({isActive})=> isActive?'text-white bg-indigo-600 px-3 py-2 rounded-lg':
                 'text-gray-700 hover:text-indigo-600'} >Home</NavLink>
 
